@@ -1,23 +1,23 @@
 Task 1:
 
-var names = new List<string> { "<name>", "Ana", "Felipe" };
+var names = new List<string> { "<name>", "Uda", "Kumar" };
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
 op:Hello <NAME>!
-Hello ANA!
-Hello FELIPE!
+Hello UDA!
+Hello KUMAR!
 
 Console.WriteLine();
 names.Add("Maria");
 names.Add("Bill");
-names.Remove("Ana");
+names.Remove("Uda");
 foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
-op:Hello FELIPE!
+op:Hello KUMAR!
 Hello MARIA!
 Hello BILL!
 
@@ -39,8 +39,8 @@ foreach (var name in names)
 {
   Console.WriteLine($"Hello {name.ToUpper()}!");
 }
-op:Hello ANA!
-Hello FELIPE!
+op:Hello UDA!
+Hello KUMAR!
 
 var fibonacciNumbers = new List<int> {1, 1};
 
