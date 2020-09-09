@@ -82,3 +82,13 @@ op:1
 2584
 4181
 6765
+
+
+
+Additional task:	
+	int a=0,i;
+	for(i=1;i<6;i++)
+	{ 
+	    a=a*10+7;
+	    Console.WriteLine($"Pattern is {a},");
+	}
